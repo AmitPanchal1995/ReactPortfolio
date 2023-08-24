@@ -103,7 +103,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between  items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-300 bg-[#565f69] p-2 ' href='https://drive.google.com/file/d/1i5z61hL9ybeZsGjPRx9Oy-i8gSHr1AtP/view?usp=drive_link'>
+                        <a className='flex justify-between items-center w-full text-gray-300 bg-[#565f69] p-2 ' href='https://drive.google.com/file/d/1r8EmmRzNFv4arVXpr_hLhuDuKdnRJQP9/view?usp=drive_link'>
                             Resume<BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
