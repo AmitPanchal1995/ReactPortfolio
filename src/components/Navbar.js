@@ -1,11 +1,11 @@
 
-import { FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import namelogo from "../assests/namelogo.png";
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-
+import Resume from '../assests/resume.jpg';
 
 function Navbar() {
 
@@ -13,7 +13,7 @@ function Navbar() {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 bg-gradient-to-r from-blue-500 hover:bg-pink-600 hover:border-pink-600 duration-300">
             <div>
                 <img src={namelogo} alt='Logo Image' className='w-16 rounded-[80%]' />
             </div>
@@ -56,8 +56,8 @@ function Navbar() {
 
             {/* Mobile Menu */}
 
-            <ul className={!nav ? 'hidden' : 'absolute top-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li className='py-4 text-3xl'>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center '}>
+                <li className='py-4 text-3xl '>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                         Home</Link></li>
 
@@ -103,7 +103,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between  items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-300 bg-[#565f69] p-2 ' href='https://drive.google.com/file/d/1r8EmmRzNFv4arVXpr_hLhuDuKdnRJQP9/view?usp=drive_link'>
+                        <a className='flex justify-between items-center w-full text-gray-300 bg-[#565f69] p-2 ' href={Resume}>
                             Resume<BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

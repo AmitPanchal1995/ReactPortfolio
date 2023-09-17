@@ -4,6 +4,8 @@ import GYM from '../assests/gympic.png';
 import FORM from '../assests/Form.png';
 import TODO from '../assests/TODO.png';
 import GIT from '../assests/GIT.png'
+import EduPIC from '../assests/React-App.png';
+import Career from '../assests/career.png';
 
 
 export default function Work() {
@@ -23,22 +25,22 @@ export default function Work() {
 
                     {/* Grid */}
 
+
+
+
                     <div
-                        style={{ backgroundImage: `url(${ASUS})` }}
-                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        style={{ backgroundImage: `url(${EduPIC})` }}
+                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+                    >
                         {/* Hover effect */}
-
-
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-white tracking-wider">Tailwind Css Landing Page</span>
-
+                            <span className="text-2xl font-bold text-white tracking-wider">React JS Application</span>
                             <div className="pt-8 text-center">
-                                <a href="https://asus-acces-store.netlify.app"><button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
-                                <a href="https://github.com/Shivanshu002/Asus_Store"><button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
+                                <a href="https://educationpointcom.netlify.app"><button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
+                                <a href="https://github.com/Shivanshu002/EducationPoint"><button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
                             </div>
                         </div>
                     </div>
-
 
 
 
@@ -62,6 +64,23 @@ export default function Work() {
                     </div>
 
 
+
+
+                    <div
+                        style={{ backgroundImage: `url(${Career})` }}
+                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+                    >
+                        {/* Hover effect */}
+
+                        <div className="opacity-0 group-hover:opacity-100">
+
+                            <span className="text-2xl font-bold text-white tracking-wider">Project on progress </span>
+                            <div className="pt-8 text-center">
+                                <a href="https://career-guide-theta.vercel.app/"><button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
+                                <a href="https://github.com/Shivanshu002/career_guide"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
+                            </div>
+                        </div>
+                    </div>
 
 
                     <div
@@ -139,6 +158,22 @@ export default function Work() {
                         </div>
                     </div>
 
+
+                    <div
+                        style={{ backgroundImage: `url(${ASUS})` }}
+                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        {/* Hover effect */}
+
+
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl font-bold text-white tracking-wider">Tailwind Css Landing Page</span>
+
+                            <div className="pt-8 text-center">
+                                <a href="https://asus-acces-store.netlify.app"><button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
+                                <a href="https://github.com/Shivanshu002/Asus_Store"><button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
+                            </div>
+                        </div>
+                    </div>
 
 
 
