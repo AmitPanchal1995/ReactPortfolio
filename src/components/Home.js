@@ -7,8 +7,7 @@ import Resume from '../assests/resume.jpg';
 
 function Home() {
 
-    // const [work, setWork] = useState(false)
-    // const handleClick = () => setWork(!work)
+    
 
     return (
         <div name='home' className=' w-full h-screen bg-[#0a192f]'>
