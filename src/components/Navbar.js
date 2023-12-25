@@ -2,7 +2,7 @@
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import namelogo from "../assests/amit.png";
+import namelogo from "../assests/amit logo.png";
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import Resume from '../assests/resu.jpeg';
