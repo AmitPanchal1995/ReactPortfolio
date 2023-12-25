@@ -2,10 +2,10 @@
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import namelogo from "../assests/namelogo.png";
+import namelogo from "../assests/amit.png";
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import Resume from '../assests/resume.jpg';
+import Resume from '../assests/resu.jpeg';
 
 function Navbar() {
 
@@ -88,17 +88,17 @@ function Navbar() {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between  items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-300 bg-blue-500 p-2 ' href='https://www.linkedin.com/in/shivanshu-rajput-a134a5226/'>
+                        <a className='flex justify-between items-center w-full text-gray-300 bg-blue-500 p-2 ' href='https://www.linkedin.com/feed/'>
                             Linkedin<FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between  items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-300 p-2 bg-[#333333] ' href='https://github.com/Shivanshu002'>
+                        <a className='flex justify-between items-center w-full text-gray-300 p-2 bg-[#333333] ' href='https://github.com/AmitPanchal1995'>
                             Github<FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between  items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full text-gray-300 bg-[#6fc2b0] p-2 ' href='mailto:shivanshu91rajput@gmail.com'>
+                        <a className='flex justify-between items-center w-full text-gray-300 bg-[#6fc2b0] p-2 ' href='mailto:apnipanchal1995@gmail.com'>
                             Email<HiOutlineMail size={30} />
                         </a>
                     </li>
